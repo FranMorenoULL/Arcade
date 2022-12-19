@@ -1,4 +1,4 @@
-# Asset References:
+# Asset References
 
 SM_SpaceShip
 https://free3d.com/3d-model/low-poly-spaceship-37605.html
