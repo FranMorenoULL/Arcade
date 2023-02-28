@@ -15,13 +15,13 @@ class ARCADE_API USIEndGameWidget : public UUserWidget
 	GENERATED_BODY()
 	
 protected:
-	UPROPERTY(VisibleAnywhere, meta = (BindWidget))
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, meta = (BindWidget))
 	UTextBlock* ScoreValueTextBlock;
 	
-	UPROPERTY(VisibleAnywhere, meta = (BindWidget))
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, meta = (BindWidget))
 	UButton* RestartGameButton;
 	
-	UPROPERTY(VisibleAnywhere, meta = (BindWidget))
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, meta = (BindWidget))
 	UButton* ExitGameButton;
 
 public:
